@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ktor_app</string>
+    <string-array name="request_method">
+        <item>GET</item>
+        <item>POST</item>
+        <item>PUT</item>
+    </string-array>
+
+    <string name="method_title">Method: </string>
+    <string name="body_hint">Body</string>
+    <string name="url_hint">URL</string>
+    <string name="query_hint">Query</string>
+    <string name="button_request_title">Request</string>
+    <string name="status_message">Status: %d</string>
+    <string name="snack_bar_button_text">Close</string>
+</resources>
