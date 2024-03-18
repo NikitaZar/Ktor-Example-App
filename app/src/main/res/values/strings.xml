@@ -4,13 +4,16 @@
         <item>GET</item>
         <item>POST</item>
         <item>PUT</item>
+        <item>Delete</item>
     </string-array>
 
+    <string name="app_title">Ktor app</string>
     <string name="method_title">Method: </string>
     <string name="body_hint">Body</string>
     <string name="url_hint">URL</string>
     <string name="query_hint">Query</string>
     <string name="button_request_title">Request</string>
     <string name="status_message">Status: %d</string>
-    <string name="snack_bar_button_text">Close</string>
+    <string name="close_text">Close</string>
+    <string name="request_error_message">Request Error</string>
 </resources>
