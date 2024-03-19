@@ -32,11 +32,13 @@ val ktorModule = module {
 //            defaultRequest {
 //                url("https://base.url")
 //            }
-            engine {
-                config {
-                    get<OkHttpClient.Builder.() -> OkHttpClient.Builder>().invoke(this)
-                }
-            }
+
+            // For Interceptors
+//            engine {
+//                config {
+//                    get<OkHttpClient.Builder.() -> OkHttpClient.Builder>().invoke(this)
+//                }
+//            }
         }
     }
 

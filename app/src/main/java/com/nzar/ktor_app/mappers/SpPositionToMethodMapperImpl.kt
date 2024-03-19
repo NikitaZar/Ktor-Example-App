@@ -5,11 +5,11 @@ import io.ktor.http.HttpMethod
 class SpPositionToMethodMapperImpl : SpPositionToMethodMapper {
     override fun map(position: Int): HttpMethod {
         return when (position) {
-            1 -> HttpMethod.Get
-            2 -> HttpMethod.Post
-            3 -> HttpMethod.Put
-            4 -> HttpMethod.Delete
-            else -> throw IllegalStateException("Unknown position")
+            0 -> HttpMethod.Get
+            1 -> HttpMethod.Post
+            2 -> HttpMethod.Put
+            3 -> HttpMethod.Delete
+            else -> throw IllegalStateException("Unknown position: $position")
         }
     }
 }
